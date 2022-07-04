@@ -77,3 +77,6 @@
     color: var(--textLight);
     margin-right: 1rem;
   }
+.level{
+    color: rgba(0, 0, 255, 0.692);
+}
