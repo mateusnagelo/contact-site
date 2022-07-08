@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,73 +11,78 @@
     <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
     <link rel="icon" href="img/logo-mcn.png">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-  </head>
+</head>
 
-  <body>
+<body>
     <section class="container">
-      <div class="columns is-multiline">
-        <div class="column is-8 is-offset-2 register">
-          <div class="columns">
-            <div class="column left">
-              <h1 class="title is-1">MCN SYSTEM</h1>
-              <!-- <h2 class="subtitle colored is-4">Entre na sua conta</h2> -->
-              <img src="img/logo-mcn.png" width="250">
-              <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis ex deleniti aliquam tempora libero excepturi vero soluta odio optio sed.</p> -->
-            </div>
-            <div class="column right has-text-centered">
-              <h1 class="title is-4">Inscreva-se agora</h1>
-              <p class="description">Preencha os campos abaixo para prosseguir</p>
-              <form>
-                <div class="field">
-                  <div class="control">
-                    <input class="input is-medium" type="text" placeholder="Nome e sobrenome">
-                  </div>
-                </div>
+        <div class="columns is-multiline">
+            <div class="column is-8 is-offset-2 register">
+                <div class="columns">
+                    <div class="column left">
+                        <h1 class="title is-1">MCN SYSTEM</h1>
+                        <!-- <h2 class="subtitle colored is-4">Entre na sua conta</h2> -->
+                        <img src="img/logo-mcn.png" width="250">
+                        <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis ex deleniti aliquam tempora libero excepturi vero soluta odio optio sed.</p> -->
+                    </div>
+                    <div class="column right has-text-centered">
+                        <h1 class="title is-4">Inscreva-se agora</h1>
+                        <p class="description">Preencha os campos abaixo para prosseguir</p>
+                        <form>
+                            <div class="field">
+                                <div class="control">
+                                    <input class="input is-medium" type="email" id="email" placeholder="Digite seu email">
+                                </div>
+                            </div>
 
-                <div class="field">
-                  <div class="control">
-                    <input class="input is-medium" type="email" placeholder="E-mail">
-                  </div>
+                            <div class="field">
+                                <div class="control">
+                                    <input class="input is-medium" type="password" id="password" placeholder="Digite sua senha">
+                                </div>
+                            </div>
+                            <a href="">
+                                <div class="button is-link is-large" id="" onclick="logar()">Enviar</div>
+                                <!-- <button class="button is-block is-link is-fullwidth is-medium" onclick="logar()">Enviar</button> -->
+                                <br />
+                            </a>
+                            <small><em>Já é cliente?</em></small>
+                        </form>
+                    </div>
                 </div>
-                <a href="https://mateusnagelo.github.io/site_mcnsistemas">
-                <button class="button is-block is-link is-fullwidth is-medium">Enviar</button>
-                <br />
-               </a>
-                <small><em>Lorem ipsum dolor sit amet consectetur.</em></small>
-              </form>
             </div>
-          </div>
-        </div>
-        <div class="column is-8 is-offset-2">
-          <br>
-          <nav class="level">
-            <div class="level-left">
-              <div class="level-item">
-                <span class="icon">
+            <div class="column is-8 is-offset-2">
+                <br>
+                <nav class="level">
+                    <div class="level-left">
+                        <div class="level-item">
+                            <span class="icon">
                   <i class="fab fa-twitter"></i>
                 </span> &emsp;
-                <span class="icon">
+                            <span class="icon">
                   <i class="fab fa-facebook"></i>
                 </span> &emsp;
-                <span class="icon">
+                            <span class="icon">
                   <i class="fab fa-instagram"></i>
                 </span> &emsp;
-                <span class="icon">
+                            <span class="icon">
                   <i class="fab fa-github"></i>
                 </span> &emsp;
-                <span class="icon">
+                            <span class="icon">
                   <i class="fas fa-envelope"></i>
                 </span>
-              </div>
-            </div>
-            <div class="level-right">
-              <small class="level-item" style="color: var(--textLight)">
+                        </div>
+                    </div>
+                    <div class="level-right">
+                        <a href="https://github.com/mateusnagelo" target="_blank">
+                            <small class="level-item" style="color: var(--textLight)">
                 &copy; Copyright © 2022 todos os direitos reservados | Este site foi criado  por Mateus Angelo
+            </a>
+            <script src='./scripts/script-login.js'></script>
               </small>
+                    </div>
+                </nav>
             </div>
-          </nav>
         </div>
-      </div>
     </section>
-  </body>
+</body>
+
 </html>
