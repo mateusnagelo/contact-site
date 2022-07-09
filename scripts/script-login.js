@@ -1,9 +1,17 @@
-// function logar() {
+function logar() {
 
-//     var email = document.getElementById('email').value;
-//     var password = document.getElementById('password').value;
+    var login = document.getElementById('login').value;
+    var senha = document.getElementById('senha').value;
 
 
-//     if (email == "admin" && senha == "1")
-//         alert('Sucesso')
-// }
+    if (login == "suporte" && senha == "1") {
+        // alert('Sucesso');
+
+        location.href = "https://mcnsistemas.netlify.app/";
+
+    } else {
+        alert('Usuario ou senha incorretos')
+    }
+
+
+}
