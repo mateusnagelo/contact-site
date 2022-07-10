@@ -89,3 +89,7 @@ input:focus {
     position: absolute;
     width: 20px;
 }
+
+em {
+    color: rgb(77, 74, 74);
+}
