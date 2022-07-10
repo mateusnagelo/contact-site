@@ -10,7 +10,7 @@ function logar() {
         location.href = "https://mcnsistemas.netlify.app/";
 
     } else {
-        alert('Usuario ou senha incorretos')
+        alert('Login ou senha inválidos')
     }
 
 }
