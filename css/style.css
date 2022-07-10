@@ -3,80 +3,89 @@
     --background: rgb(247, 247, 247);
     --textDark: hsla(0, 0%, 0%, 0.66);
     --textLight: hsla(0, 0%, 0%, 0.33);
-  }
+}
 
-  body {
+body {
     background: var(--background);
     height: 100vh;
     color: var(--textDark);
-  }
+}
 
-  .field:not(:last-child) {
+.field:not(:last-child) {
     margin-bottom: 1rem;
-  }
+}
 
-  .register {
+.register {
     margin-top: 10rem;
     background: white;
     border-radius: 10px;
-  }
+}
 
-  .left,
-  .right {
+.left,
+.right {
     padding: 4.5rem;
-  }
+}
 
-  .left {
+.left {
     border-right: 5px solid var(--background);
-  }
+}
 
-  .left .title {
+.left .title {
     font-weight: 800;
     letter-spacing: -2px;
-  }
+}
 
-  .left .colored {
+.left .colored {
     color: var(--brandColor);
     font-weight: 500;
     margin-top: 1rem !important;
     letter-spacing: -1px;
-  }
+}
 
-  .left p {
+.left p {
     color: var(--textLight);
     font-size: 1.15rem;
-  }
+}
 
-  .right .title {
+.right .title {
     font-weight: 800;
     letter-spacing: -1px;
-  }
+}
 
-  .right .description {
+.right .description {
     margin-top: 1rem;
     margin-bottom: 1rem !important;
     color: var(--textLight);
     font-size: 1.15rem;
-  }
+}
 
-  .right small {
+.right small {
     color: var(--textLight);
-  }
+}
 
-  input {
+input {
     font-size: 1rem;
-  }
+}
 
-  input:focus {
+input:focus {
     border-color: var(--brandColor) !important;
     box-shadow: 0 0 0 1px var(--brandColor) !important;
-  }
+}
 
-  .fab,
-  .fas {
+.fab,
+.fas {
     color: var(--textLight);
     margin-right: 1rem;
-  }
-.level{
+}
+
+.level {
     color: rgba(0, 0, 255, 0.692);
+}
+
+.olho {
+    margin-top: 5%;
+    cursor: pointer;
+    left: 90%;
+    position: absolute;
+    width: 20px;
 }
