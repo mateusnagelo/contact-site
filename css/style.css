@@ -93,3 +93,7 @@ input:focus {
 em {
     color: rgb(77, 74, 74);
 }
+
+p.description.ondetitle {
+    color: rgb(77, 74, 74);
+}
